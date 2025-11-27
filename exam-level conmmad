@@ -1,0 +1,497 @@
+# Claude Code - Exam Essential Commands
+## Top Scoring Strategy - Interview/Exam Ke Liye (Roman Urdu)
+
+---
+
+# 🎯 **EXAM MEIN ZARUR AANE WALE COMMANDS**
+
+---
+
+## ⭐ **CATEGORY 1: BASIC COMMANDS (100% POOCHA JAYEGA)**
+
+### **Must Know - Har Exam Mein Hote Hain**
+
+| Command | Purpose | Marks Worth | Example Answer |
+|---------|---------|-------------|----------------|
+| `claude` | Start Claude Code | ⭐⭐⭐ | Claude Code ko start karne ke liye current project folder mein `claude` command use karte hain |
+| `/exit` | Exit/Quit | ⭐⭐ | Claude Code se exit karne ke liye `/exit` ya `/quit` use karte hain |
+| `/help` | Show all commands | ⭐⭐⭐ | Available commands ki list dekhne ke liye `/help` command use hoti hai |
+| `/reset` | Clear conversation | ⭐⭐ | Conversation history clear karne ke liye `/reset` command use karte hain |
+| `/list` | Show files | ⭐⭐⭐ | Current directory ki files dekhne ke liye `/list` ya `/ls` command |
+
+---
+
+## ⭐⭐ **CATEGORY 2: FILE OPERATIONS (80% CHANCES)**
+
+### **File Management - Important Topic**
+
+| Command | Purpose | Marks Worth | Key Points for Answer |
+|---------|---------|-------------|------------------------|
+| `/new` | Create new file | ⭐⭐⭐⭐ | Syntax: `/new filename.ext` <br> Example: `/new app.js` |
+| `/edit` | Edit existing file | ⭐⭐⭐ | Existing file ko modify karne ke liye <br> Syntax: `/edit filename.ext` |
+| `/read` | View file content | ⭐⭐⭐ | File ka content dekhne ke liye <br> Syntax: `/read filename.ext` |
+| `/delete` | Remove file | ⭐⭐ | File delete karne ke liye <br> Warning: Permanent delete |
+| `/save` | Save changes | ⭐⭐⭐ | Current changes save karne ke liye |
+
+**Exam Tip:** File operations ke sath hamesha example dena!
+
+---
+
+## ⭐⭐⭐ **CATEGORY 3: PROJECT COMMANDS (90% CHANCES)**
+
+### **Project Management - High Priority**
+
+| Command | Purpose | Marks Worth | Interview Answer Template |
+|---------|---------|-------------|---------------------------|
+| `/init` | Initialize project | ⭐⭐⭐⭐⭐ | "Naya project setup karne ke liye `/init` command use karte hain. Example: `/init react` se React project initialize hota hai" |
+| `/install` | Install packages | ⭐⭐⭐⭐⭐ | "npm packages install karne ke liye. Syntax: `/install package-name`. Example: `/install express`" |
+| `/run` | Execute project | ⭐⭐⭐⭐⭐ | "Project ko run karne ke liye `/run` command. Development server start hota hai" |
+| `/build` | Build for production | ⭐⭐⭐⭐ | "Production build banane ke liye. Optimized code generate hoti hai" |
+| `/test` | Run tests | ⭐⭐⭐ | "Test cases run karne ke liye `/test` command use hoti hai" |
+
+**Exam Tip:** Har command ke sath use case batana zaruri hai!
+
+---
+
+## ⭐⭐⭐⭐ **CATEGORY 4: GIT COMMANDS (70% CHANCES)**
+
+### **Version Control - Popular Questions**
+
+| Command | Purpose | Marks Worth | Expected Answer |
+|---------|---------|-------------|-----------------|
+| `/git init` | Initialize Git | ⭐⭐⭐⭐ | "Git repository initialize karne ke liye. Project mein version control setup hota hai" |
+| `/git add .` | Stage all files | ⭐⭐⭐⭐ | "Sabhi files ko staging area mein add karne ke liye. Commit ke liye ready" |
+| `/commit` | Save changes | ⭐⭐⭐⭐⭐ | "Changes ko Git history mein save karne ke liye. Syntax: `/commit 'message'`" |
+| `/push` | Upload to remote | ⭐⭐⭐⭐ | "Local changes ko remote repository (GitHub) pe upload karne ke liye" |
+| `/branch` | Create branch | ⭐⭐⭐ | "Naya branch banane ke liye. Syntax: `/branch branch-name`" |
+
+**Exam Tip:** Git workflow explain kar sake to bonus marks!
+
+---
+
+## ⭐⭐⭐⭐⭐ **CATEGORY 5: AI MODEL COMMANDS (95% CHANCES)**
+
+### **Most Important - Almost Guaranteed Questions**
+
+| Command | Purpose | Marks Worth | Detailed Answer Required |
+|---------|---------|-------------|--------------------------|
+| `/model` | Change AI model | ⭐⭐⭐⭐⭐ | "AI model change karne ke liye. Available models:<br>- `gemini-2.0-flash-exp` (Fast, default)<br>- `gemini-1.5-flash` (Balanced)<br>- `gemini-1.5-pro` (Most powerful)<br>Complex tasks ke liye pro model use karte hain" |
+
+**Exam Tip:** Models ki comparison zarur likho!
+
+---
+
+## ⭐⭐⭐ **CATEGORY 6: CODE QUALITY COMMANDS (60% CHANCES)**
+
+### **Professional Development Commands**
+
+| Command | Purpose | Marks Worth | Scoring Points |
+|---------|---------|-------------|----------------|
+| `/lint` | Check errors | ⭐⭐⭐⭐ | "Code mein errors aur warnings check karne ke liye. Code quality improve hoti hai" |
+| `/format` | Auto-format code | ⭐⭐⭐⭐ | "Code ko properly format karne ke liye. Prettier/ESLint rules apply hote hain" |
+| `/optimize` | Improve performance | ⭐⭐⭐ | "Code ki performance improve karne ke liye. Efficient code generate hoti hai" |
+| `/refactor` | Restructure code | ⭐⭐⭐ | "Code structure improve karne ke liye. Readability aur maintainability badhti hai" |
+| `/debug` | Debug mode | ⭐⭐⭐ | "Bugs find aur fix karne ke liye debug mode activate hota hai" |
+
+---
+
+## 🔥 **MOST ASKED INTERVIEW/EXAM QUESTIONS**
+
+### **Question 1: Claude Code kaise start kare? (100% Aata Hai)**
+
+**Perfect Answer:**
+```
+Claude Code ko start karne ke liye:
+
+1. Terminal/Command Prompt kholo
+2. Project folder mein jao: cd project-name
+3. Command type karo: claude
+4. Enter dabao
+
+Claude Code interface khul jayega aur aap coding kar sakte ho.
+```
+
+**Marks:** 5/5 ⭐⭐⭐⭐⭐
+
+---
+
+### **Question 2: Naya file kaise banaye? (90% Aata Hai)**
+
+**Perfect Answer:**
+```
+Naya file banane ke 2 tarike:
+
+Method 1 (Command):
+/new filename.ext
+Example: /new app.js
+
+Method 2 (Natural Language):
+"Create a file called app.js"
+
+File automatically create ho jayegi aur edit ke liye ready hogi.
+```
+
+**Marks:** 5/5 ⭐⭐⭐⭐⭐
+
+---
+
+### **Question 3: AI model kaise change kare? (95% Aata Hai)**
+
+**Perfect Answer:**
+```
+AI model change karne ke liye /model command use karte hain:
+
+Syntax: /model model-name
+
+Available Models:
+1. gemini-2.0-flash-exp - Fast tasks (Default)
+2. gemini-1.5-flash - Balanced performance
+3. gemini-1.5-pro - Complex coding tasks
+
+Example:
+/model gemini-1.5-pro
+
+Use Case:
+- Simple tasks: flash models
+- Complex algorithms: pro model
+```
+
+**Marks:** 10/10 ⭐⭐⭐⭐⭐
+
+---
+
+### **Question 4: Git workflow explain karo (80% Aata Hai)**
+
+**Perfect Answer:**
+```
+Claude Code mein Git workflow:
+
+Step 1: Initialize
+/git init
+
+Step 2: Stage files
+/git add .
+
+Step 3: Commit
+/commit "Initial commit"
+
+Step 4: Add remote
+/git remote add origin URL
+
+Step 5: Push
+/push
+
+Ye complete workflow hai code ko GitHub pe upload karne ka.
+```
+
+**Marks:** 10/10 ⭐⭐⭐⭐⭐
+
+---
+
+### **Question 5: Project kaise setup kare? (85% Aata Hai)**
+
+**Perfect Answer:**
+```
+Naya project setup karne ke steps:
+
+1. Folder banao aur usme jao:
+   mkdir my-project && cd my-project
+
+2. Claude start karo:
+   claude
+
+3. Project initialize:
+   /init react (ya koi bhi framework)
+
+4. Dependencies install:
+   /install axios tailwindcss
+
+5. Files create:
+   /new src/App.jsx
+
+6. Run project:
+   /run
+
+Ye complete setup process hai.
+```
+
+**Marks:** 10/10 ⭐⭐⭐⭐⭐
+
+---
+
+## 📝 **THEORY QUESTIONS - HIGH PROBABILITY**
+
+### **Q1: Claude Code kya hai? Benefits kya hain?**
+
+**Model Answer:**
+```
+Claude Code ek AI-powered command-line tool hai jo:
+
+Benefits:
+1. Code automatically generate karta hai
+2. Bugs fix karta hai
+3. Code optimization karta hai
+4. Documentation generate karta hai
+5. Multiple programming languages support karta hai
+6. Git integration hai
+7. Real-time assistance milti hai
+
+Use Case:
+Developers ke liye coding speed aur quality improve karta hai.
+```
+
+---
+
+### **Q2: Natural Language Commands kya hain?**
+
+**Model Answer:**
+```
+Natural Language Commands wo commands hain jo simple English/Urdu
+mein likhi jati hain without any special syntax.
+
+Examples:
+- "Create a login form"
+- "Add authentication"
+- "Fix the bug in app.js"
+- "Optimize database queries"
+
+Benefits:
+1. Easy to use
+2. No syntax yaad rakhna
+3. Beginner-friendly
+4. Powerful results
+
+Ye Claude Code ki sabse powerful feature hai.
+```
+
+---
+
+### **Q3: File operations ke main commands?**
+
+**Model Answer:**
+```
+File Operations Commands:
+
+1. /new - Naya file create
+2. /edit - File ko modify
+3. /read - File content view
+4. /delete - File remove
+5. /rename - Naam change
+6. /copy - Duplicate banao
+7. /move - Location change
+8. /save - Changes save
+
+Example Workflow:
+/new app.js → /edit app.js → /save
+
+Ye basic file management commands hain.
+```
+
+---
+
+## 🎯 **PRACTICAL EXAM SCENARIOS**
+
+### **Scenario 1: Todo App Banao (Most Common)**
+
+**Step-by-Step Answer:**
+```
+1. Project setup:
+   /init react
+
+2. Install dependencies:
+   /install axios
+
+3. Create files:
+   /new src/components/TodoList.jsx
+   /new src/components/TodoItem.jsx
+
+4. Add functionality:
+   "Add todo list with add, delete, and complete features"
+
+5. Styling:
+   "Make it responsive with Tailwind CSS"
+
+6. Test:
+   /run
+
+7. Build:
+   /build
+```
+
+---
+
+### **Scenario 2: REST API Banao**
+
+**Step-by-Step Answer:**
+```
+1. Initialize:
+   /init node
+
+2. Install Express:
+   /install express mongoose
+
+3. Create structure:
+   /new server.js
+   /new routes/api.js
+   /new models/User.js
+
+4. Add routes:
+   "Create CRUD operations for user management"
+
+5. Test:
+   /run
+
+6. Deploy:
+   /deploy heroku
+```
+
+---
+
+## 💯 **SCORING STRATEGY**
+
+### **For Written Exams:**
+
+1. **Command Name** (1 mark)
+2. **Syntax** (1 mark)
+3. **Purpose** (2 marks)
+4. **Example** (1 mark)
+5. **Use Case** (bonus)
+
+**Total Per Command: 5-6 marks**
+
+---
+
+### **For Practical Exams:**
+
+1. **Setup** (20%)
+2. **Commands Execution** (40%)
+3. **Project Working** (30%)
+4. **Code Quality** (10%)
+
+**Focus:** Commands ko sahi execute karna!
+
+---
+
+## 🏆 **TOP 20 COMMANDS - PRIORITY ORDER**
+
+| Priority | Command | Reason |
+|----------|---------|--------|
+| 1 | `claude` | Start - Always asked |
+| 2 | `/model` | Model change - Very important |
+| 3 | `/init` | Project setup - Common |
+| 4 | `/new` | File create - Basic |
+| 5 | `/install` | Package install - Essential |
+| 6 | `/run` | Execute - Always needed |
+| 7 | `/help` | Commands list - Basic |
+| 8 | `/commit` | Git - Version control |
+| 9 | `/push` | Upload code - Git |
+| 10 | `/list` | View files - Basic |
+| 11 | `/edit` | Modify files - Common |
+| 12 | `/build` | Production - Important |
+| 13 | `/lint` | Code quality - Professional |
+| 14 | `/format` | Clean code - Quality |
+| 15 | `/test` | Testing - Standard |
+| 16 | `/deploy` | Go live - Deployment |
+| 17 | `/git init` | Start Git - Version control |
+| 18 | `/git add` | Stage files - Git |
+| 19 | `/debug` | Fix bugs - Troubleshooting |
+| 20 | `/exit` | Quit - Basic |
+
+---
+
+## 📚 **EXAM PREPARATION STRATEGY**
+
+### **Day 1-2: Learn These (Must)**
+```
+claude, /help, /exit, /model, /new
+/list, /run, /save, /init, /install
+```
+
+### **Day 3-4: Add These (Important)**
+```
+/build, /test, /commit, /push, /git init
+/edit, /read, /lint, /format
+```
+
+### **Day 5-6: Practice (Advanced)**
+```
+Complete workflows
+Todo app banao
+API banao
+Git operations
+```
+
+### **Day 7: Revision**
+```
+All commands repeat
+Q&A practice
+Mock test
+```
+
+---
+
+## ✅ **QUICK REVISION CHECKLIST**
+
+- [ ] Basic commands (10) yaad hain?
+- [ ] File operations samajh aaye?
+- [ ] Git workflow clear hai?
+- [ ] Models ke differences pata hain?
+- [ ] Project setup kar sakte ho?
+- [ ] Practical mein confident ho?
+- [ ] Theory answers ready hain?
+- [ ] Examples yaad hain?
+
+---
+
+## 🎓 **FINAL TIPS FOR TOP MARKS**
+
+1. **Commands ke sath examples do** (+2 marks)
+2. **Use case explain karo** (+2 marks)
+3. **Syntax properly likho** (+1 mark)
+4. **Alternatives mention karo** (+1 mark)
+5. **Practical try karke jao** (+confidence)
+
+---
+
+## 🔥 **LAST MINUTE REVISION**
+
+### **5 Minutes Before Exam:**
+```
+1. claude - Start
+2. /model - Change AI
+3. /init - Setup
+4. /new - Create
+5. /run - Execute
+6. /help - Guide
+7. /commit - Save
+8. /push - Upload
+9. /build - Production
+10. Natural language - Direct commands
+```
+
+---
+
+## 💡 **BONUS: VIVA/INTERVIEW QUESTIONS**
+
+**Q: Claude Code kyu use kare?**
+A: Fast development, AI assistance, error reduction, code quality
+
+**Q: Free hai ya paid?**
+A: Gemini API free tier use kar sakte hain (1500 requests/day)
+
+**Q: Kaunsi languages support karti hai?**
+A: Python, JavaScript, Java, C++, React, Node.js, etc. - sabhi major languages
+
+**Q: Offline kaam karti hai?**
+A: Nahi, internet connection required (API calls ke liye)
+
+---
+
+## 🎯 **SUCCESS FORMULA**
+
+```
+Top Marks = Commands (40%) + Examples (30%) + 
+            Theory (20%) + Practical (10%)
+```
+
+**Ab tayari complete hai! Best of luck! 🚀**
