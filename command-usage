@@ -1,0 +1,941 @@
+# Claude Code - Complete Commands Reference A to Z
+## Beginner to Professional - Har Command Ki Detail (Roman Urdu)
+
+---
+
+# 📋 **COMPLETE COMMAND LIST - 50+ Commands**
+
+---
+
+## 🟢 **LEVEL 1: BASIC COMMANDS (Beginner)**
+
+### **1. claude**
+**Kya karta hai:** Claude Code start karta hai  
+**Kab use kare:** Jab coding karna ho  
+**Syntax:**
+```bash
+claude
+```
+**Example:**
+```bash
+cd my-project
+claude
+```
+
+---
+
+### **2. /exit**
+**Kya karta hai:** Claude se bahar nikalta hai  
+**Kab use kare:** Kaam khatam ho gaya  
+**Syntax:**
+```
+/exit
+```
+**Alternative:** `/quit` ya `Ctrl + C` (2 baar)
+
+---
+
+### **3. /help**
+**Kya karta hai:** Sari commands ka list dikhata hai  
+**Kab use kare:** Commands bhool gaye  
+**Syntax:**
+```
+/help
+```
+
+---
+
+### **4. /reset**
+**Kya karta hai:** Conversation history clear karta hai  
+**Kab use kare:** Naya kaam start karna ho  
+**Syntax:**
+```
+/reset
+```
+**Warning:** Sari previous chat delete ho jayegi
+
+---
+
+### **5. /clear**
+**Kya karta hai:** Screen saaf karta hai  
+**Kab use kare:** Screen clean rakhna ho  
+**Syntax:**
+```
+/clear
+```
+**Alternative:** `Ctrl + L`
+
+---
+
+## 🟡 **LEVEL 2: FILE COMMANDS (Intermediate)**
+
+### **6. /new**
+**Kya karta hai:** Naya file create karta hai  
+**Kab use kare:** File banana ho  
+**Syntax:**
+```
+/new filename.ext
+```
+**Examples:**
+```
+/new app.js
+/new index.html
+/new styles.css
+```
+
+---
+
+### **7. /edit**
+**Kya karta hai:** File ko edit mode mein kholta hai  
+**Kab use kare:** Specific file edit karni ho  
+**Syntax:**
+```
+/edit filename.ext
+```
+**Example:**
+```
+/edit app.js
+```
+
+---
+
+### **8. /read**
+**Kya karta hai:** File ka content dikhata hai  
+**Kab use kare:** File check karni ho  
+**Syntax:**
+```
+/read filename.ext
+```
+**Example:**
+```
+/read package.json
+```
+
+---
+
+### **9. /delete**
+**Kya karta hai:** File delete karta hai  
+**Kab use kare:** File remove karni ho  
+**Syntax:**
+```
+/delete filename.ext
+```
+**Warning:** Permanent delete, recover nahi hoga
+
+---
+
+### **10. /list**
+**Kya karta hai:** Current directory ki files dikhata hai  
+**Kab use kare:** Project structure dekhna ho  
+**Syntax:**
+```
+/list
+```
+**Alternative:** `/ls`
+
+---
+
+### **11. /tree**
+**Kya karta hai:** Full folder structure tree format mein  
+**Kab use kare:** Complete project structure dekhna ho  
+**Syntax:**
+```
+/tree
+```
+
+---
+
+### **12. /save**
+**Kya karta hai:** Changes save karta hai  
+**Kab use kare:** Kaam save karna ho  
+**Syntax:**
+```
+/save
+```
+**Alternative:** Auto-save ON hai usually
+
+---
+
+### **13. /rename**
+**Kya karta hai:** File ka naam change karta hai  
+**Kab use kare:** File rename karni ho  
+**Syntax:**
+```
+/rename oldname.ext newname.ext
+```
+**Example:**
+```
+/rename app.js main.js
+```
+
+---
+
+### **14. /move**
+**Kya karta hai:** File ko doosri location mein move karta hai  
+**Kab use kare:** File ka location change karna ho  
+**Syntax:**
+```
+/move filename.ext new/path/
+```
+
+---
+
+### **15. /copy**
+**Kya karta hai:** File ka duplicate banata hai  
+**Kab use kare:** Backup banana ho  
+**Syntax:**
+```
+/copy source.ext destination.ext
+```
+
+---
+
+## 🟠 **LEVEL 3: PROJECT COMMANDS (Intermediate-Advanced)**
+
+### **16. /init**
+**Kya karta hai:** Naya project initialize karta hai  
+**Kab use kare:** Project setup karna ho  
+**Syntax:**
+```
+/init project-type
+```
+**Examples:**
+```
+/init react
+/init node
+/init python
+```
+
+---
+
+### **17. /install**
+**Kya karta hai:** npm packages install karta hai  
+**Kab use kare:** Dependencies add karne ho  
+**Syntax:**
+```
+/install package-name
+```
+**Examples:**
+```
+/install express
+/install react
+/install axios
+```
+
+---
+
+### **18. /run**
+**Kya karta hai:** Project run karta hai  
+**Kab use kare:** App test karna ho  
+**Syntax:**
+```
+/run
+```
+**Alternative:** `/start`
+
+---
+
+### **19. /build**
+**Kya karta hai:** Production build banata hai  
+**Kab use kare:** Deploy ke liye ready karna ho  
+**Syntax:**
+```
+/build
+```
+
+---
+
+### **20. /test**
+**Kya karta hai:** Tests run karta hai  
+**Kab use kare:** Code test karna ho  
+**Syntax:**
+```
+/test
+```
+**Example:**
+```
+/test filename.test.js
+```
+
+---
+
+### **21. /deploy**
+**Kya karta hai:** Project deploy karta hai  
+**Kab use kare:** Live website banana ho  
+**Syntax:**
+```
+/deploy platform
+```
+**Examples:**
+```
+/deploy vercel
+/deploy netlify
+```
+
+---
+
+### **22. /git**
+**Kya karta hai:** Git commands execute karta hai  
+**Kab use kare:** Version control ke liye  
+**Syntax:**
+```
+/git command
+```
+**Examples:**
+```
+/git init
+/git add .
+/git commit -m "message"
+/git push
+```
+
+---
+
+### **23. /branch**
+**Kya karta hai:** Git branches manage karta hai  
+**Kab use kare:** Feature branches banane ho  
+**Syntax:**
+```
+/branch name
+```
+**Examples:**
+```
+/branch feature-login
+/branch bugfix-header
+```
+
+---
+
+### **24. /commit**
+**Kya karta hai:** Changes commit karta hai  
+**Kab use kare:** Code save karna ho Git mein  
+**Syntax:**
+```
+/commit "message"
+```
+**Example:**
+```
+/commit "Added login feature"
+```
+
+---
+
+### **25. /push**
+**Kya karta hai:** GitHub pe push karta hai  
+**Kab use kare:** Online backup chahiye  
+**Syntax:**
+```
+/push
+```
+
+---
+
+## 🔴 **LEVEL 4: ADVANCED COMMANDS (Professional)**
+
+### **26. /model**
+**Kya karta hai:** AI model change karta hai  
+**Kab use kare:** Different model chahiye  
+**Syntax:**
+```
+/model model-name
+```
+**Available Models:**
+```
+/model gemini-2.0-flash-exp    (Fast, default)
+/model gemini-1.5-flash        (Balanced)
+/model gemini-1.5-pro          (Most powerful)
+```
+**Use Case:**
+- Simple tasks → flash
+- Complex coding → pro
+
+---
+
+### **27. /context**
+**Kya karta hai:** Project context set karta hai  
+**Kab use kare:** Background info deni ho  
+**Syntax:**
+```
+/context "information"
+```
+**Example:**
+```
+/context "This is an e-commerce site using MERN stack"
+```
+
+---
+
+### **28. /undo**
+**Kya karta hai:** Last change undo karta hai  
+**Kab use kare:** Galti ho gayi  
+**Syntax:**
+```
+/undo
+```
+**Alternative:** `Ctrl + Z`
+
+---
+
+### **29. /redo**
+**Kya karta hai:** Undo ko reverse karta hai  
+**Kab use kare:** Undo galti se ho gaya  
+**Syntax:**
+```
+/redo
+```
+**Alternative:** `Ctrl + Y`
+
+---
+
+### **30. /diff**
+**Kya karta hai:** File changes dikhata hai  
+**Kab use kare:** Kya change hua dekhna ho  
+**Syntax:**
+```
+/diff filename.ext
+```
+
+---
+
+### **31. /search**
+**Kya karta hai:** Code mein search karta hai  
+**Kab use kare:** Specific text dhundna ho  
+**Syntax:**
+```
+/search "text"
+```
+**Example:**
+```
+/search "function login"
+```
+
+---
+
+### **32. /replace**
+**Kya karta hai:** Text find and replace karta hai  
+**Kab use kare:** Multiple places mein change karna ho  
+**Syntax:**
+```
+/replace "old" "new"
+```
+**Example:**
+```
+/replace "var" "const"
+```
+
+---
+
+### **33. /lint**
+**Kya karta hai:** Code errors check karta hai  
+**Kab use kare:** Code quality check karni ho  
+**Syntax:**
+```
+/lint
+```
+
+---
+
+### **34. /format**
+**Kya karta hai:** Code ko properly format karta hai  
+**Kab use kare:** Code clean karna ho  
+**Syntax:**
+```
+/format
+```
+**Uses:** Prettier/ESLint rules
+
+---
+
+### **35. /optimize**
+**Kya karta hai:** Code performance improve karta hai  
+**Kab use kare:** Speed badhani ho  
+**Syntax:**
+```
+/optimize filename.ext
+```
+
+---
+
+### **36. /refactor**
+**Kya karta hai:** Code structure improve karta hai  
+**Kab use kare:** Code clean banana ho  
+**Syntax:**
+```
+/refactor filename.ext
+```
+
+---
+
+### **37. /document**
+**Kya karta hai:** Code documentation generate karta hai  
+**Kab use kare:** Comments/docs chahiye  
+**Syntax:**
+```
+/document filename.ext
+```
+
+---
+
+### **38. /analyze**
+**Kya karta hai:** Code analysis karta hai  
+**Kab use kare:** Issues dhundne ho  
+**Syntax:**
+```
+/analyze
+```
+**Shows:**
+- Bugs
+- Security issues
+- Performance problems
+- Code smells
+
+---
+
+### **39. /debug**
+**Kya karta hai:** Debugging mode start karta hai  
+**Kab use kare:** Errors fix karne ho  
+**Syntax:**
+```
+/debug filename.ext
+```
+
+---
+
+### **40. /benchmark**
+**Kya karta hai:** Performance test karta hai  
+**Kab use kare:** Speed measure karni ho  
+**Syntax:**
+```
+/benchmark
+```
+
+---
+
+## 🟣 **LEVEL 5: EXPERT COMMANDS (Professional Advanced)**
+
+### **41. /config**
+**Kya karta hai:** Claude settings change karta hai  
+**Kab use kare:** Configuration customize karni ho  
+**Syntax:**
+```
+/config key value
+```
+**Examples:**
+```
+/config theme dark
+/config autosave true
+/config tabsize 2
+```
+
+---
+
+### **42. /alias**
+**Kya karta hai:** Custom shortcuts banata hai  
+**Kab use kare:** Repeated commands ke liye  
+**Syntax:**
+```
+/alias name "command"
+```
+**Example:**
+```
+/alias dev "npm run dev"
+```
+
+---
+
+### **43. /macro**
+**Kya karta hai:** Multiple commands ek sath execute  
+**Kab use kare:** Automated workflow chahiye  
+**Syntax:**
+```
+/macro name
+```
+**Example:**
+```
+/macro deploy → build + test + push
+```
+
+---
+
+### **44. /watch**
+**Kya karta hai:** File changes monitor karta hai  
+**Kab use kare:** Auto-reload chahiye  
+**Syntax:**
+```
+/watch filename.ext
+```
+
+---
+
+### **45. /compare**
+**Kya karta hai:** Do files compare karta hai  
+**Kab use kare:** Differences dekhne ho  
+**Syntax:**
+```
+/compare file1.ext file2.ext
+```
+
+---
+
+### **46. /merge**
+**Kya karta hai:** Files merge karta hai  
+**Kab use kare:** Code combine karna ho  
+**Syntax:**
+```
+/merge file1.ext file2.ext
+```
+
+---
+
+### **47. /backup**
+**Kya karta hai:** Project ka backup banata hai  
+**Kab use kare:** Safe copy chahiye  
+**Syntax:**
+```
+/backup
+```
+
+---
+
+### **48. /restore**
+**Kya karta hai:** Backup se restore karta hai  
+**Kab use kare:** Previous version chahiye  
+**Syntax:**
+```
+/restore backup-name
+```
+
+---
+
+### **49. /export**
+**Kya karta hai:** Project export karta hai  
+**Kab use kare:** Share karna ho  
+**Syntax:**
+```
+/export format
+```
+**Examples:**
+```
+/export zip
+/export tar.gz
+```
+
+---
+
+### **50. /import**
+**Kya karta hai:** External files import karta hai  
+**Kab use kare:** Code add karna ho  
+**Syntax:**
+```
+/import path/to/file
+```
+
+---
+
+### **51. /snippet**
+**Kya karta hai:** Code snippets save/load karta hai  
+**Kab use kare:** Reusable code chahiye  
+**Syntax:**
+```
+/snippet save name
+/snippet load name
+```
+
+---
+
+### **52. /template**
+**Kya karta hai:** Project templates use karta hai  
+**Kab use kare:** Boilerplate chahiye  
+**Syntax:**
+```
+/template name
+```
+**Examples:**
+```
+/template react-app
+/template express-api
+```
+
+---
+
+### **53. /log**
+**Kya karta hai:** Activity logs dikhata hai  
+**Kab use kare:** History dekhni ho  
+**Syntax:**
+```
+/log
+```
+
+---
+
+### **54. /stats**
+**Kya karta hai:** Project statistics dikhata hai  
+**Kab use kare:** Metrics chahiye  
+**Syntax:**
+```
+/stats
+```
+**Shows:**
+- Lines of code
+- File count
+- Languages used
+
+---
+
+### **55. /version**
+**Kya karta hai:** Claude Code version dikhata hai  
+**Kab use kare:** Version check karna ho  
+**Syntax:**
+```
+/version
+```
+
+---
+
+### **56. /update**
+**Kya karta hai:** Claude Code update karta hai  
+**Kab use kare:** New version chahiye  
+**Syntax:**
+```
+/update
+```
+
+---
+
+## 🎯 **SPECIAL COMMANDS - Context & AI Control**
+
+### **57. /think**
+**Kya karta hai:** Deep thinking mode activate  
+**Kab use kare:** Complex problems ke liye  
+**Syntax:**
+```
+/think
+```
+
+---
+
+### **58. /explain**
+**Kya karta hai:** Code detailed explanation  
+**Kab use kare:** Samajhna ho  
+**Syntax:**
+```
+/explain filename.ext
+```
+
+---
+
+### **59. /suggest**
+**Kya karta hai:** Improvements suggest karta hai  
+**Kab use kare:** Ideas chahiye  
+**Syntax:**
+```
+/suggest
+```
+
+---
+
+### **60. /review**
+**Kya karta hai:** Complete code review  
+**Kab use kare:** Quality check  
+**Syntax:**
+```
+/review
+```
+
+---
+
+## 🔧 **NATURAL LANGUAGE COMMANDS (Sabse Powerful)**
+
+### **In commands ko directly type karo:**
+
+```
+Create a React app with routing
+Build a REST API with Express
+Add authentication to my app
+Fix the bug in login.js
+Optimize the database queries
+Write tests for user.js
+Deploy to Vercel
+Set up CI/CD pipeline
+Add dark mode toggle
+Create responsive navbar
+Implement lazy loading
+Add error handling
+Setup ESLint and Prettier
+Generate API documentation
+Create Docker container
+Add Redis caching
+Setup WebSocket connection
+Implement JWT authentication
+Add pagination to API
+Create admin dashboard
+```
+
+---
+
+## 📊 **COMMAND CHEAT SHEET - Quick Reference**
+
+### **Zaruri Commands (Daily Use)**
+```
+claude          → Start
+/exit           → Quit
+/help           → Help
+/reset          → Clear
+/list           → Show files
+/run            → Execute
+/save           → Save work
+```
+
+### **File Operations**
+```
+/new            → Create
+/edit           → Modify
+/read           → View
+/delete         → Remove
+/rename         → Rename
+/copy           → Duplicate
+```
+
+### **Project Management**
+```
+/init           → Setup
+/install        → Add packages
+/build          → Build project
+/test           → Run tests
+/deploy         → Go live
+```
+
+### **Git Commands**
+```
+/git init       → Start repo
+/git add .      → Stage all
+/commit         → Save changes
+/push           → Upload
+/branch         → New branch
+```
+
+### **Code Quality**
+```
+/lint           → Check errors
+/format         → Auto-format
+/optimize       → Improve speed
+/refactor       → Clean code
+/document       → Add docs
+/analyze        → Find issues
+```
+
+### **Advanced**
+```
+/model          → Change AI
+/context        → Set info
+/undo           → Reverse
+/search         → Find text
+/replace        → Change text
+/debug          → Fix bugs
+```
+
+---
+
+## 💡 **PRO TIPS - Commands Ko Behtar Use Karo**
+
+### **Tip 1: Chain Commands**
+```
+/install express && /run
+```
+
+### **Tip 2: Use Variables**
+```
+/new $filename.js
+```
+
+### **Tip 3: Shortcuts**
+```
+/ls = /list
+/q = /quit
+/h = /help
+```
+
+### **Tip 4: Combine with Natural Language**
+```
+/edit app.js and add error handling
+```
+
+### **Tip 5: Use Flags**
+```
+/run --watch
+/build --production
+/test --coverage
+```
+
+---
+
+## 🎓 **Learning Path - Commands Kaise Seekhe**
+
+### **Week 1: Basic Commands (10)**
+```
+claude, /exit, /help, /reset, /clear
+/new, /edit, /read, /list, /save
+```
+
+### **Week 2: File & Project (15)**
+```
+/delete, /rename, /copy, /move
+/init, /install, /run, /build, /test
+/git, /commit, /push, /branch
+```
+
+### **Week 3: Advanced (15)**
+```
+/model, /context, /undo, /redo
+/search, /replace, /lint, /format
+/optimize, /refactor, /document
+/debug, /analyze, /benchmark
+```
+
+### **Week 4: Expert (15+)**
+```
+/config, /alias, /macro, /watch
+/compare, /merge, /backup, /restore
+/export, /import, /snippet, /template
+Plus custom workflows
+```
+
+---
+
+## ✅ **SUMMARY - Complete Command List**
+
+**Total Commands: 60+**
+
+- ✅ Basic: 5
+- ✅ File: 10
+- ✅ Project: 10
+- ✅ Advanced: 15
+- ✅ Expert: 15
+- ✅ Natural Language: Unlimited
+
+**Sabse Important:**
+1. `/help` - Jab bhool jao
+2. `/model` - AI power control
+3. Natural language - Sabse powerful!
+
+---
+
+## 🚀 **Ab Practice Karo!**
+
+```bash
+cd Desktop
+mkdir practice
+cd practice
+claude
+```
+
+**Try these:**
+```
+Create a todo app
+/model gemini-1.5-pro
+Add dark mode
+/build
+/deploy vercel
+```
+
+**You're now a Claude Code Pro! 🎉**
