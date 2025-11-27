@@ -1,0 +1,375 @@
+# Claude Code - All Commands Cheat Sheet
+## Complete Reference Guide (Roman Urdu)
+
+---
+
+# 📋 **COMPLETE COMMANDS REFERENCE**
+
+---
+
+## 🟢 **LEVEL 1: BASIC COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `claude` | Claude Code start | `claude` | `cd project && claude` |
+| `/exit` | Quit Claude | `/exit` | `/exit` |
+| `/quit` | Exit (alternative) | `/quit` | `/quit` |
+| `/help` | Commands list | `/help` | `/help` |
+| `/reset` | Clear history | `/reset` | `/reset` |
+| `/clear` | Clear screen | `/clear` | `/clear` |
+| `Ctrl+C` | Force exit | `Ctrl+C` (2x) | Press twice |
+| `Ctrl+L` | Clear screen | `Ctrl+L` | Press once |
+
+---
+
+## 🟡 **LEVEL 2: FILE COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/new` | Create file | `/new <file>` | `/new app.js` |
+| `/edit` | Edit file | `/edit <file>` | `/edit index.html` |
+| `/read` | View file | `/read <file>` | `/read package.json` |
+| `/delete` | Remove file | `/delete <file>` | `/delete test.js` |
+| `/list` | Show files | `/list` | `/list` |
+| `/ls` | List files | `/ls` | `/ls` |
+| `/tree` | Folder structure | `/tree` | `/tree` |
+| `/save` | Save changes | `/save` | `/save` |
+| `/rename` | Rename file | `/rename <old> <new>` | `/rename app.js main.js` |
+| `/move` | Move file | `/move <file> <path>` | `/move app.js src/` |
+| `/copy` | Copy file | `/copy <src> <dst>` | `/copy app.js backup.js` |
+
+---
+
+## 🟠 **LEVEL 3: PROJECT COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/init` | Initialize project | `/init <type>` | `/init react` |
+| `/install` | Install package | `/install <pkg>` | `/install express` |
+| `/run` | Run project | `/run` | `/run` |
+| `/start` | Start server | `/start` | `/start` |
+| `/build` | Build project | `/build` | `/build` |
+| `/test` | Run tests | `/test` | `/test` |
+| `/deploy` | Deploy app | `/deploy <platform>` | `/deploy vercel` |
+
+---
+
+## 🔵 **LEVEL 4: GIT COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/git` | Git command | `/git <cmd>` | `/git status` |
+| `/git init` | Initialize repo | `/git init` | `/git init` |
+| `/git add` | Stage files | `/git add .` | `/git add .` |
+| `/commit` | Commit changes | `/commit "<msg>"` | `/commit "Added login"` |
+| `/push` | Push to remote | `/push` | `/push` |
+| `/pull` | Pull from remote | `/pull` | `/pull` |
+| `/branch` | Create branch | `/branch <name>` | `/branch feature-x` |
+| `/checkout` | Switch branch | `/checkout <branch>` | `/checkout main` |
+| `/merge` | Merge branches | `/merge <branch>` | `/merge dev` |
+| `/status` | Git status | `/status` | `/status` |
+
+---
+
+## 🔴 **LEVEL 5: ADVANCED COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/model` | Change AI model | `/model <name>` | `/model gemini-1.5-pro` |
+| `/context` | Set context | `/context "<info>"` | `/context "MERN stack app"` |
+| `/undo` | Undo last change | `/undo` | `/undo` |
+| `/redo` | Redo change | `/redo` | `/redo` |
+| `/diff` | Show changes | `/diff <file>` | `/diff app.js` |
+| `/search` | Find in code | `/search "<text>"` | `/search "function"` |
+| `/replace` | Find & replace | `/replace "<old>" "<new>"` | `/replace "var" "const"` |
+| `/lint` | Check errors | `/lint` | `/lint` |
+| `/format` | Auto-format code | `/format` | `/format` |
+| `/optimize` | Improve code | `/optimize <file>` | `/optimize app.js` |
+| `/refactor` | Restructure code | `/refactor <file>` | `/refactor utils.js` |
+| `/document` | Add docs | `/document <file>` | `/document api.js` |
+| `/analyze` | Code analysis | `/analyze` | `/analyze` |
+| `/debug` | Debug mode | `/debug <file>` | `/debug index.js` |
+| `/benchmark` | Performance test | `/benchmark` | `/benchmark` |
+
+---
+
+## 🟣 **LEVEL 6: EXPERT COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/config` | Change settings | `/config <key> <val>` | `/config theme dark` |
+| `/alias` | Create shortcut | `/alias <name> "<cmd>"` | `/alias dev "npm run dev"` |
+| `/macro` | Run multiple cmds | `/macro <name>` | `/macro deploy` |
+| `/watch` | Watch file changes | `/watch <file>` | `/watch app.js` |
+| `/compare` | Compare files | `/compare <f1> <f2>` | `/compare old.js new.js` |
+| `/backup` | Create backup | `/backup` | `/backup` |
+| `/restore` | Restore backup | `/restore <name>` | `/restore backup-1` |
+| `/export` | Export project | `/export <format>` | `/export zip` |
+| `/import` | Import files | `/import <path>` | `/import ../code.js` |
+| `/snippet` | Save/load snippet | `/snippet save <name>` | `/snippet save login` |
+| `/template` | Use template | `/template <name>` | `/template react-app` |
+| `/log` | Show activity log | `/log` | `/log` |
+| `/stats` | Project stats | `/stats` | `/stats` |
+| `/version` | Claude version | `/version` | `/version` |
+| `/update` | Update Claude | `/update` | `/update` |
+
+---
+
+## 🎯 **SPECIAL AI COMMANDS**
+
+| Command | Kya Karta Hai | Syntax | Example |
+|---------|---------------|--------|---------|
+| `/think` | Deep thinking mode | `/think` | `/think` |
+| `/explain` | Detailed explanation | `/explain <file>` | `/explain app.js` |
+| `/suggest` | Get suggestions | `/suggest` | `/suggest` |
+| `/review` | Code review | `/review` | `/review` |
+
+---
+
+## 🚀 **AVAILABLE AI MODELS**
+
+| Model Name | Speed | Power | Use Case |
+|------------|-------|-------|----------|
+| `gemini-2.0-flash-exp` | ⚡⚡⚡ | 🔋🔋 | Default, fast tasks |
+| `gemini-1.5-flash` | ⚡⚡ | 🔋🔋🔋 | Balanced |
+| `gemini-1.5-pro` | ⚡ | 🔋🔋🔋🔋🔋 | Complex coding |
+
+**Switch Model:**
+```
+/model gemini-1.5-pro
+```
+
+---
+
+## 📝 **NATURAL LANGUAGE COMMANDS**
+
+Ye directly type karo (no / needed):
+
+| Task | Command Example |
+|------|-----------------|
+| **Create** | `Create a React component` |
+| **Build** | `Build a REST API with Express` |
+| **Add** | `Add authentication to my app` |
+| **Fix** | `Fix the bug in login.js` |
+| **Optimize** | `Optimize database queries` |
+| **Test** | `Write tests for user.js` |
+| **Deploy** | `Deploy to Vercel` |
+| **Setup** | `Setup CI/CD pipeline` |
+| **Implement** | `Implement JWT authentication` |
+| **Generate** | `Generate API documentation` |
+
+---
+
+## ⚙️ **CONFIG SETTINGS**
+
+| Setting | Values | Command |
+|---------|--------|---------|
+| **Theme** | `dark`, `light` | `/config theme dark` |
+| **Autosave** | `true`, `false` | `/config autosave true` |
+| **Tab Size** | `2`, `4` | `/config tabsize 2` |
+| **Line Numbers** | `true`, `false` | `/config linenumbers true` |
+| **Word Wrap** | `true`, `false` | `/config wordwrap true` |
+
+---
+
+## 🔧 **COMMAND FLAGS**
+
+| Command | Flag | Example |
+|---------|------|---------|
+| `/run` | `--watch` | `/run --watch` |
+| `/build` | `--production` | `/build --production` |
+| `/test` | `--coverage` | `/test --coverage` |
+| `/install` | `--save-dev` | `/install jest --save-dev` |
+| `/deploy` | `--preview` | `/deploy --preview` |
+
+---
+
+## ⌨️ **KEYBOARD SHORTCUTS**
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl + C` | Exit (2x) |
+| `Ctrl + L` | Clear screen |
+| `Ctrl + Z` | Undo |
+| `Ctrl + Y` | Redo |
+| `↑` | Previous command |
+| `↓` | Next command |
+| `Tab` | Autocomplete |
+| `Ctrl + R` | Search history |
+
+---
+
+## 💡 **QUICK COMMAND COMBINATIONS**
+
+### **Full Workflow:**
+```bash
+/init react                    # Setup
+/install axios tailwindcss     # Dependencies
+/new src/App.jsx              # Create
+/run                          # Test
+/build                        # Build
+/deploy vercel                # Deploy
+```
+
+### **Git Workflow:**
+```bash
+/git init                     # Initialize
+/git add .                    # Stage
+/commit "Initial commit"      # Commit
+/git remote add origin URL    # Add remote
+/push                         # Push
+```
+
+### **Code Quality:**
+```bash
+/lint                         # Check errors
+/format                       # Format code
+/analyze                      # Find issues
+/optimize app.js              # Improve
+/review                       # Full review
+```
+
+---
+
+## 📊 **COMMAND CATEGORIES - SUMMARY**
+
+| Category | Count | Level |
+|----------|-------|-------|
+| **Basic** | 8 | 🟢 Beginner |
+| **File Operations** | 11 | 🟡 Intermediate |
+| **Project Management** | 7 | 🟠 Intermediate |
+| **Git Commands** | 10 | 🔵 Intermediate |
+| **Advanced** | 15 | 🔴 Advanced |
+| **Expert** | 15 | 🟣 Expert |
+| **AI Special** | 4 | 🎯 Pro |
+| **Natural Language** | ∞ | 🚀 Any Level |
+
+**Total: 70+ Commands**
+
+---
+
+## 🎓 **LEARNING ORDER**
+
+### **Day 1-3: Master These (10)**
+```
+claude, /exit, /help, /reset, /list
+/new, /edit, /run, /save, /model
+```
+
+### **Week 1: Add These (10)**
+```
+/init, /install, /build, /test, /git
+/commit, /push, /lint, /format, /deploy
+```
+
+### **Week 2: Learn These (10)**
+```
+/search, /replace, /optimize, /refactor, /debug
+/undo, /diff, /analyze, /branch, /merge
+```
+
+### **Week 3: Advanced (10)**
+```
+/config, /watch, /compare, /backup, /export
+/snippet, /template, /macro, /benchmark, /review
+```
+
+---
+
+## ✅ **TOP 20 MOST USED COMMANDS**
+
+1. `claude` - Start
+2. `/help` - Guide
+3. `/list` - Files
+4. `/new` - Create
+5. `/edit` - Modify
+6. `/run` - Execute
+7. `/save` - Save
+8. `/model` - Change AI
+9. `/exit` - Quit
+10. `/reset` - Clear
+11. `/install` - Packages
+12. `/build` - Build
+13. `/test` - Test
+14. `/commit` - Save to Git
+15. `/push` - Upload
+16. `/lint` - Check
+17. `/format` - Clean
+18. `/deploy` - Live
+19. `/undo` - Reverse
+20. Natural commands - Direct
+
+---
+
+## 🎯 **COMMAND PRIORITY**
+
+### **Must Know (Essential):**
+```
+claude, /exit, /help, /list, /new, /run
+```
+
+### **Should Know (Important):**
+```
+/model, /install, /build, /test, /save
+```
+
+### **Good to Know (Useful):**
+```
+/lint, /format, /git, /commit, /push
+```
+
+### **Nice to Have (Advanced):**
+```
+/optimize, /refactor, /debug, /analyze
+```
+
+### **Pro Level (Expert):**
+```
+/config, /macro, /watch, /benchmark
+```
+
+---
+
+## 📱 **QUICK REFERENCE CARD**
+
+```
+┌─────────────────────────────────────┐
+│        CLAUDE CODE ESSENTIALS       │
+├─────────────────────────────────────┤
+│ START:     claude                   │
+│ EXIT:      /exit                    │
+│ HELP:      /help                    │
+│ FILES:     /list                    │
+│ CREATE:    /new <file>              │
+│ RUN:       /run                     │
+│ MODEL:     /model gemini-1.5-pro    │
+│ INSTALL:   /install <package>       │
+│ SAVE:      /save                    │
+│ QUIT:      Ctrl+C (2x)              │
+└─────────────────────────────────────┘
+```
+
+---
+
+## 🚀 **READY TO USE!**
+
+### **Test Command:**
+```bash
+cd Desktop
+mkdir test
+cd test
+claude
+```
+
+**Then try:**
+```
+/help
+/list
+Create a hello world in Python
+/run
+/exit
+```
+
+---
+
+**Ab tum har command jante ho! Save kar lo ye cheat sheet! 📋✨**
